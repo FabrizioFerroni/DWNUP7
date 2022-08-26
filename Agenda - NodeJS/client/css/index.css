@@ -1,0 +1,274 @@
+::-webkit-scrollbar {
+  /* background: #fff;*/
+  width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1270b6;
+  height: 5px;
+  border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: #009CC0; /* 797676*/
+  /* background: #d10014; 797676 */
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.5);
+  /* background: #fff; */
+}
+
+::selection{
+  display: none;
+}
+
+::-moz-selection{
+  display: none;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background: url('../img/back.jpeg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Kaushan Script', cursive;
+  font-family: 'Neucha', cursive;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+}
+
+.fc-unthemed td.fc-today {
+  background: #dda933 !important;
+}
+
+.headerCalendar {
+  width: 100%;
+  /* height: 20%; */
+  background: #004462;
+  font-family: 'Kaushan Script', cursive;
+  color: #ffffff;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calendarDataContainer {
+  /* width: 70%; */
+  height: 100%;
+  font-family: 'Kaushan Script', cursive;
+  font-family: 'Neucha', cursive;
+  display: flex;
+  flex-direction: column;
+}
+
+.fc-center{
+  text-transform: capitalize;
+}
+
+.dataContainer {
+  display: flex;
+  width: 100%;
+  /* height: 80%; */
+}
+
+.mainCalendarContainer {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.calendarContainer {
+  width: 97%;
+  height: 100%;
+  margin: 8px;
+  color: #FFFFFF;
+}
+
+.fc-day-header{
+  text-transform: capitalize;
+}
+.formContainer {
+  padding: 10px;
+  width: 30%;
+  background: rgba(0, 0, 0, 0.7);
+  font-family: 'Neucha', cursive;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formTitle {
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+.separator {
+  width: 96%;
+  margin-top: 4px;
+  margin-bottom: 8px;
+  height: 1px;
+  background: #FFFFFF;
+}
+
+.form-inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  width: 350px;
+  height: 25px;
+  padding: 5px;
+  border: none;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-size: 15px;
+  border-radius: 4px;
+  color: #FFFFFF;
+  font-family: 'Kaushan Script', cursive;
+  font-family: 'Neucha', cursive;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.form-group {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hour-input {
+  width: 48%;
+}
+
+.right {
+  margin-left: 3px;
+}
+
+.eventDuration {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.duration-label {
+  margin-top: 6px;
+}
+
+.radio-input {
+  border: solid white 1px;
+  background: url(../img/blue.png) no-repeat;
+  -webkit-appearance: none;
+  width: 20px;
+  background-position: -2px -1px;
+  height: 20px;
+  border-radius: 50%;
+  position: relative;
+  margin-right: 5px;
+}
+
+.radio-input:hover {
+  border: solid #00c5f3 1px;
+}
+
+.radio-input:checked {
+  background-position: -169px -1px;
+  border: solid #00c5f3 1px;
+}
+
+.fc-button {
+  font-family: 'Kaushan Script', cursive;
+  font-family: 'Neucha', cursive;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.addButton {
+  margin-top: 8px;
+  width: 358px;
+  height: 32px;
+  border-radius: 4px;
+  border: none;
+  font-size: 17px;
+  color: #FFFFFF;
+  background: #1270b6;
+  font-family: 'Kaushan Script', cursive;
+  font-family: 'Neucha', cursive;
+  margin-bottom: 55px;
+  cursor: pointer;
+}
+
+.drop-event {
+  margin-bottom: 10px;
+}
+
+.delete {
+  width: 100%;
+  height: 15%;
+  border-radius: 4px;
+  cursor: not-allowed !important;
+  display: flex;
+  background-color: #8B0913;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 75px;
+  cursor: pointer;
+}
+
+.outnone{
+  outline: none !important;
+  box-shadow: 0 0 0 0 transparent !important;
+}
+
+.logout-container {
+  display: flex;
+
+  padding: 10px;
+  border-radius: 10px;
+  background: #8B0913;
+  border: 1px solid #8B0913;
+  cursor: pointer;
+}
+
+.logout-container:hover{
+  background-color: #5c070e;
+  border: 1px solid #5c070e;
+}
+
+.logout-image {
+  margin-right: 6px;
+  cursor: pointer;
+
+}
+
+.logoutText {
+  font-size: 18px;
+  margin-top: 4px;
+  color: white;
+  cursor: pointer;
+}
+
+.logoutText:hover, .logout-image:hover{
+  color: white;
+}
+
+.addButton:hover {
+  background: #009CC0;
+}

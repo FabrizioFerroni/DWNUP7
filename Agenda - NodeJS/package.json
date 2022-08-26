@@ -1,0 +1,19 @@
+{
+  "name": "agendanode",
+  "version": "1.0.0",
+  "description": "Agenda hecha en node para parcial de base de datos de nextu",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Fabrizio Ferroni Dev",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "^0.0.3",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "mongoose": "^6.5.3"
+  }
+}
