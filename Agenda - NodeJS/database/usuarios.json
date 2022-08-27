@@ -1,0 +1,17 @@
+[{
+  "_id": {
+    "$oid": "630a455a746ffbbf9031d2b2"
+  },
+  "nombre": "Fabrizio",
+  "email": "fabrizio@mail.com",
+  "clave": "$2a$10$V8W1IF/S04x3tSmHUw4/e.epOq09Qt0WvW6Gmi1vYjHcm.XTRIv5G",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "630a455a746ffbbf9031d2b3"
+  },
+  "nombre": "Augusto",
+  "email": "augusto@mail.com",
+  "clave": "$2a$10$f.DFtpPOuuwWvRuvzB/VI.CkbvYaWEAmcImqhaLbs6i0.SYaT2xs6",
+  "__v": 0
+}]

@@ -10,7 +10,7 @@ Router.get('/buscar_y_verificar_usuarios', function (req, response) {
     } else {
       if (usuarios.length <= 0) {
         let newUser1 = new Usuario()
-        newUser1.nombre = 'Fabrizio '
+        newUser1.nombre = 'Fabrizio'
         newUser1.email = 'fabrizio@gmail.com'
         newUser1.clave = '123456789'
         bcrypt.hash(newUser1.clave, null, null, async function (err, hash) {

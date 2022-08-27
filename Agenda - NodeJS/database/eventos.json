@@ -1,0 +1,24 @@
+[{
+  "_id": {
+    "$oid": "6308c34d1b43c38cbdc5914f"
+  },
+  "id_usuario": {
+    "$oid": "6307a9c033c0861e7933533d"
+  },
+  "title": "Primera Compra",
+  "start": "2022-08-02",
+  "allDay": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6308c3811b43c38cbdc59154"
+  },
+  "id_usuario": {
+    "$oid": "6307a9c033c0861e7933533d"
+  },
+  "title": "Primera Compra 2",
+  "start": "2022-08-04T06:30:00",
+  "end": "2022-08-04T07:30:00",
+  "allDay": false,
+  "__v": 0
+}]
